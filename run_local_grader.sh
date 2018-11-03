@@ -8,7 +8,7 @@ fi
 
 docker run -it \
   --net=host \
-  --name redis \
+  --name local_grader \
   -e ALLOW_EMPTY_PASSWORD=yes \
   crowdaidocker/nips-ai-for-prosthetics-subcontractor \
   /home/crowdai/run.sh
